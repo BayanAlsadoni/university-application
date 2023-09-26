@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCourseActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="159dp"
+        android:text="Add Course"
+        android:textColor="#B36D05"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/coursIdEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="28dp"
+        android:width="350dp"
+        android:background="@drawable/shapes"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Course ID"
+        android:inputType="textPersonName"
+        android:textColorHint="#ECC792"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/cNameEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:width="350dp"
+        android:background="@drawable/shapes"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Course Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#ECC792"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coursIdEt" />
+
+    <EditText
+        android:id="@+id/cHoursNomEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:width="350dp"
+        android:background="@drawable/shapes"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Course Hours Number"
+        android:inputType="number"
+        android:textColorHint="#ECC792"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cNameEt" />
+
+    <Button
+        android:id="@+id/addCousrBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="128dp"
+        android:width="150dp"
+        android:background="@drawable/shapes"
+        android:gravity="center"
+        android:text="Add Course"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cHoursNomEt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
